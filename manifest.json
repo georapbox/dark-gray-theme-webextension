@@ -1,0 +1,51 @@
+{
+  "manifest_version": 2,
+  "name": "Dark Gray Theme (WebExtension)",
+  "version": "1.0.0",
+  "description": "Another dark gray theme for Firefox",
+  "author": "George Raptis",
+  "icons": {
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  },
+  "theme": {
+    "colors": {
+      "frame": [32, 33, 36],
+      "tab_background_text": [210, 214, 221],
+      "toolbar": [57, 57, 62],
+      "tab_line": [95, 111, 137],
+      "tab_loading": [95, 111, 137],
+      "icons_attention": [95, 111, 137],
+
+      "toolbar_top_separator": [32, 33, 36],
+      "toolbar_bottom_separator": [32, 33, 36],
+      "toolbar_vertical_separator": [79, 91, 102],
+
+      "toolbar_field": [42, 43, 45],
+      "toolbar_field_text": [255, 255, 255],
+      "toolbar_field_focus": [57, 57, 62],
+      "toolbar_field_border": [32, 33, 36],
+      "toolbar_field_border_focus": [95, 111, 137],
+      "toolbar_field_separator": [57, 57, 62],
+      "bookmark_text": [210, 214, 221],
+
+      "tab_selected": [57, 57, 62],
+      "tab_text": [255, 255, 255],
+      "tab_background_separator": [167, 173, 186],
+
+      "button_background_hover": [82, 82, 92],
+      "button_background_active": [82, 82, 92],
+
+      "popup": [57, 57, 62],
+      "popup_text": [210, 214, 221],
+      "popup_border": [39, 43, 53],
+      "popup_highlight": [82, 82, 92],
+
+      "sidebar": [57, 57, 62],
+      "sidebar_text": [210, 214, 221],
+      "sidebar_highlight": [82, 82, 92],
+      "sidebar_highlight_text": [255, 255, 255],
+      "sidebar_border": [39, 43, 53]
+    }
+  }
+}
